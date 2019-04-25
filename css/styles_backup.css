@@ -1,0 +1,224 @@
+a {
+  color: #067fa7;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  font-family: 'Lato', sans-serif;
+}
+
+blockquote {
+  padding: 20px 40px;
+  background-color: #def1f9;
+}
+
+footer {
+  color: #666;
+  font-size: .8rem;
+  margin: 30px 0;
+  background-color: black;
+}
+
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 20px;
+  color: #067fa7;
+  line-height: 1.8;
+}
+
+h3 {
+  font-size: 1.75rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #990000;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #067fa7;
+}
+
+h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #80dcff;
+  margin-top: 20px;
+}
+
+hr {
+  border-top: 2px dotted #990000;
+  clear: both;
+
+}
+
+
+nav {
+  background-color: #990000;
+  margin: 15px 0 0 0;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  background-color: #990000;
+}
+
+#mainNavbar .nav-link {
+  color: white;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+  font-family: "Sacramento", cursive;
+  color: white;
+  font-size: 2.85rem;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+#headingGroup span {
+  color: #EA1C2C;
+}
+
+#headingGroup h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+
+.bg-dark {
+    background-color: #990000!important;
+  }
+
+.blurb h2 {
+    font-size: 2rem;
+  }
+
+.blockquote-reviews {
+  font-style: italic;
+}
+
+.biography-content {
+  padding: 120px 40px 0px 40px;
+  background-color: white;
+  text-align: left;
+}
+
+.book-content {
+  padding: 120px 40px 0px 40px;
+  background-color: white;
+  text-align: left;
+}
+
+.cd {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.cd-cover {
+  width: 220px;
+  height: auto;
+  padding: 0 30px 20px 0;
+  float: left;
+}
+
+.contact {
+  padding-top: 20px;
+  font-size: 1.6rem;
+}
+
+.contact-content {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.container {
+  margin-top: 140px;
+  padding: 40px;
+  width: 75%;
+}
+
+.container-contact {
+    margin-top: 100px;
+    padding-top: : 40px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.contact-image {
+  margin-bottom: 20px;
+  border: 7px solid white;
+  box-shadow:
+    0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 6px 8px rgba(0, 0, 0, 0.1),
+    0px 6px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.image-frame {
+  width: 300px;
+  float: right;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 7px solid white;
+  box-shadow:
+    0px 4px 3px rgba(0, 0, 0, 0.4),
+    0px 6px 8px rgba(0, 0, 0, 0.1),
+    0px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.img-thumbnail {
+  padding: .5rem;
+  border: 2px solid #dee2e6;
+}
+
+.ira-gitler-quote {
+  width: auto;
+  margin: 20px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  line-height: 2;
+}
+
+.nav-item {
+  text-transform: uppercase;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+.quote {
+
+}
+
+.red-bg {
+  background-color: #990000;
+  height: 100px;
+}
+
+.subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.15rem;
+  color: #990000;
+}
