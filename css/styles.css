@@ -24,7 +24,7 @@ h2 {
   font-size: 1.3rem;
   font-style: italic;
   font-weight: 400;
-  padding-top: 20px;
+  padding-top: 10px;
   color: #067fa7;
   line-height: 1.8;
 }
@@ -202,9 +202,17 @@ nav {
     0px 6px 8px rgba(0, 0, 0, 0.1);
 }
 
+.title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
 
 /* Photos Page */
-
+.carousel-control-next,
+.carousel-control-prev {
+  width: 40%;
+}
 
 /* Contact Page */
 .contact {
@@ -231,16 +239,12 @@ nav {
   font-size: 2rem;
 }
 
-.ira-gitler-quote {
+.quote {
   width: auto;
-  margin: 20px 0;
+  margin: 15px 0;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   line-height: 2;
-}
-
-.blockquote-reviews {
-  font-style: italic;
 }
 
 /* Images */
