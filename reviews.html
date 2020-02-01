@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/breakpoints.css">
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Merriweather+Sans&display=swap" rel="stylesheet">
 
     <title>Jazz Singer Lilian Terry: Book Reviews </title>
 
@@ -20,48 +21,44 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book.html">Book</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="discography.html">Discography</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="photos.html">Photos</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:lilian@lilianterry.com">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Book Reviews</h1>
+    </div>
+
     <div class="container">
-        <!-- Start navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Lilian Terry</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="biography.html">Biography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="discography.html">Discography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="book.html">Book</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reviews.html">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="photos.html">Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav><!-- End navbar -->
+        <div class="content">
 
-        <div class="biography-content">
-
-            <h3>BOOK REVIEWS</h3>
-
-            <p class="title">DownBeat Magazine</p>
-
-            <img class="downbeat-image" src="images/Lilian-Terry-Downbeat-Review.png" alt="Downbeat Review">
+            <h4>DownBeat Magazine</h4>
 
             <p>Masterpiece jazz recordings evoke perfect states of being and a
                 transcendent response. Similarly, in books, when authorship
@@ -80,6 +77,8 @@
                 friendships, and the book feels fresh and current due to Terry
                 recapturing the humanity and camaraderie from those experiences.
             </p>
+
+            <img src="gallery/02-lilian-terry.jpg" class="img-fluid my-4 mr-4 shadow rev-duke" alt="">
 
             <p>Terry presents new jazz stories from Europe during the era in
                 America when almost every family had a Dave Brubeck album near the
@@ -139,20 +138,20 @@
                 change with time but the proceeding remains the same.” </p>
 
             <p> A great performer’s music is timeless and renowned personalities
-                are largerthan-life. The artists in Terry’s book conjure up
+                are larger than life. The artists in Terry’s book conjure up
                 special eternal magic. New jazz stories are documented as Terry
                 creates a comforting read nudging closer to the jazz
                 greats. </p>
 
-            <p>-- Kerilie McDowall</p>
-
-            <a href="images/Lilian-Terry-Downbeat-Review.pdf" target="_blank">
-                Link to pdf file</a>
-
-            <hr>
-
-            <p class="title">Association for Recorded Sound Collections Journal</p>
-
+            <p>- Kerilie McDowall ::
+                <span>
+                    <a href="images/Lilian-Terry-Downbeat-Review.pdf" target="_blank">
+                        Link to pdf file</a>
+                </span>
+            </p>
+            <div class="publication">
+                <h4>Association for Recorded Sound Collections Journal</h4>
+            </div>
             <p>As a twentieth-century art form that grew up alongside the
                 development of recording technology, jazz has spent much of its
                 evolution with its primary sources preserved and available.
@@ -194,6 +193,8 @@
                 decades) are the subject of <cite>Dizzy, Duke, Brother Ray, and
                     Friends.</cite></p>
 
+            <img src="gallery/04-lilian-terry.png" class="img-fluid m-4 shadow rev-abbey" alt="">
+
             <p>Duke Ellington, whom Terry first met in 1966 at the Antibes Jazz
                 Festival, always had a suave and sophisticated public persona,
                 particularly around women. The account that Terry relates is very
@@ -213,13 +214,6 @@
                 Ellington recollections, Terry provides an amusing account of how
                 she ended up recording an album with pianist Tommy Flanagan,
                 including a lyric version of “The Star-Crossed Lovers” in 1982.</p>
-
-            <blockquote>
-                "The anecdotes are not generic rehashes that have
-                been told before elsewhere, but instead have a freshness and
-                singularity that makes one think of a great improvisation."<br>
-                -- Michael Fitzgerald
-            </blockquote>
 
             <p>Following the concert, Ellington invited Terry to join the band for
                 a reception and she spent time with him on several occasions later
@@ -257,6 +251,13 @@
                 who was ahead of the curve, appearing at fashion shows in 1962 and
                 1963 and attracting attention with her natural hair, years before
                 Angela Davis.</p>
+
+            <blockquote>
+                "The anecdotes are not generic rehashes that have
+                been told before elsewhere, but instead have a freshness and
+                singularity that makes one think of a great improvisation."<br>
+                <footer class="blockquote-footer">Michael Fitzgerald, Association for Recorded Sound Collections Journal</footer>
+            </blockquote>
 
             <p>The chapter on Horace Silver begins with a long prelude to a 1968
                 interview. Silver is friendly, but not especially forthcoming, and
@@ -310,6 +311,8 @@
                 attitude “gave way to a relaxed familiarity. It was as if we had
                 always known each other, feeling at ease like old friends.”
                 (p.114)</p>
+
+            <img src="gallery/22-lilian-terry.png" class="img-fluid my-4 mr-4 shadow rev-diz" alt="">
 
             <p>The story of Terry’s work on the Italian translation of Gillespie’s
                 autobiography is quite unusual: to start with, the Italian
@@ -370,15 +373,14 @@
                 focused projects. When the stories told are indeed each
                 one-of-a-kind, they are priceless. </p>
 
-            <p>-- Michael Fitzgerald</p>
+            <p>- Michael Fitzgerald ::
+                <span>
+                    <a href="images/ARSC-Lilian-Terry.pdf" target="_blank">Link to pdf file</a>
+                </span></p>
 
-            <a href="images/ARSC-Lilian-Terry.pdf" target="_blank">
-                Link to pdf file</a>
-
-            <hr>
-
-            <p class="title">The New York City Jazz Record</p>
-
+            <div class="publication">
+                <h4>The New York City Jazz Record</h4>
+            </div>
             <p>A radio host, concert organizer and accomplished vocalist,
                 Lilian Terry played an important role on the Italian jazz
                 scene for many years. Now in her 80s, she has written a jaunty
@@ -390,6 +392,8 @@
                 and doesn’t spend much time writing about the music itself.
                 But taken for what it is — a collection of mostly
                 flattering character sketches — this is a likeable effort. </p>
+
+            <img src="gallery/05-lilian-terry.png" class="img-fluid m-4 shadow rev-max" alt="">
 
             <p>Raised in Cairo and Florence, Terry began working for the
                 Italian broadcaster RAI in the ‘60s. In the years that
@@ -420,55 +424,64 @@
                 “love of life and devotion to his music had raised him well
                 above his shortcomings.” </p>
 
-            <p>-- Kevin Canfield</p>
-
-            <a href="images/Lilian-Terry-NYC-Jazz-Record-Review.pdf" target="_blank">Link
-                to pdf file</a>
-
-            <hr>
-
-            <p class="title">Musica Jazz</p>
-
-            <a href="images/Musica-Jazz-Interview-Lilian-Terry.pdf" target="_blank">Read
-                the review in Italian (pdf file)</a>
-
-            <hr>
-
-            <p class="title">Le Jazzophone</p>
-            <a href="https://fr.calameo.com/read/00403221003c341f6243c?page=1" target="_blank">Read the review online (page 7)</a>
-
-            <hr>
-
-            <p class="title">JazzWise</p>
-            <a href="images/Lilian-Terry-Review.pdf" target="_blank">Read
-                the review (pdf file)</a>
+            <p>- Kevin Canfield ::
+                <span>
+                    <a href="images/Lilian-Terry-NYC-Jazz-Record-Review.pdf" target="_blank">Link
+                        to pdf file</a>
+                </span>
+            </p><br>
 
 
-            <hr>
-            <p class="title">LE JAZZ A SA TRIBUNE</p>
-            <a href="http://www.citizenjazz.com/Lilian-Terry.html" target="_blank">Read
-                the online review in French</a>
+            <div class="title-link">
+                <h5>Musica Jazz</h5>
 
-            <hr>
+                <a href="images/Musica-Jazz-Interview-Lilian-Terry.pdf" target="_blank">Read
+                    the review in Italian (pdf file)</a>
+            </div>
 
-            <p class="title">JazzdaGama</p>
-            <a href="https://jazzdagama.com/booksmiscellany/lilian-terry-off-record-dizzy-duke-brother-ray-friends/" target="_blank">Read the online review</a>
+            <div class="title-link">
+                <h5>Le Jazzophone</h5>
+                <a href="https://fr.calameo.com/read/00403221003c341f6243c?page=1" target="_blank">Read the review online (page 7)</a>
+            </div>
 
-            <hr>
+            <div class="title-link">
+                <h5>JazzWise</h5>
+                <a href="images/Lilian-Terry-Review.pdf" target="_blank">Read
+                    the review (pdf file)</a>
+            </div>
 
-            <p class="title">ArtsJournal: Rifftides blog</p>
-            <a href="https://www.artsjournal.com/rifftides/2018/04/monday-book-recommendation-lilian-terrys-jazz-friends.html" target="_blank">Read the blog post</a>
+            <div class="title-link">
+                <h5>LE JAZZ A SA TRIBUNE</h5>
+                <a href="http://www.citizenjazz.com/Lilian-Terry.html" target="_blank">Read
+                    the online review in French</a>
+            </div>
+            <div class="title-link">
 
-            <hr>
+                <h5 class="title">JazzdaGama</h5>
+                <a href="https://jazzdagama.com/booksmiscellany/lilian-terry-off-record-dizzy-duke-brother-ray-friends/" target="_blank">Read the online review</a>
+            </div>
+            <div class="title-link">
 
-            <p class="title">On the Seawall</p>
-            <a href="http://www.ronslate.com/new_music_titles_jas_obrecht_will_friedwald_fred_hersch_and_lilian_terry/" target="_blank">Read the blog post</a><br><br>
+                <h5 class="title">ArtsJournal: Rifftides blog</h5>
+                <a href="https://www.artsjournal.com/rifftides/2018/04/monday-book-recommendation-lilian-terrys-jazz-friends.html" target="_blank">Read the blog post</a>
+            </div>
 
-        </div><!-- End of .biography-content -->
+            <div class="title-link">
+
+                <h5 class="title">On the Seawall</h5>
+                <a href="http://www.ronslate.com/new_music_titles_jas_obrecht_will_friedwald_fred_hersch_and_lilian_terry/" target="_blank">Read the blog post</a>
+
+            </div><br>
+
+        </div>
 
     </div>
 
-    <footer>© Lilian Terry. All Rights Reserved. Web design: Julia Crosara</footer>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">© Lilian Terry. Web Design: Julia Crosara</span>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->

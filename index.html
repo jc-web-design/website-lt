@@ -10,60 +10,60 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/breakpoints.css">
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cantarell:400,400i,700,700i|Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Merriweather+Sans&display=swap" rel="stylesheet">
 
     <title>Jazz Singer Lilian Terry</title>
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="book.html">Book</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="discography.html">Discography</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="photos.html">Photos</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:lilian@lilianterry.com">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header-home">
+        <h1 class="home-title">Lilian Terry</h1>
+        <p class="subhead">a lifetime of jazz</p>
+    </div>
     <div class="container">
-
-        <!-- Start navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="index.html">Lilian Terry</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="biography.html">Biography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="discography.html">Discography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="book.html">Book</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reviews.html">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="photos.html">Photos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav><!-- End navbar -->
-
-        <h5 class="lt">Lilian Terry has been active in the jazz field since the late 1950s as a singer, journalist, Italian radio and TV producer, concert organizer, and educator. Her first book, <cite>Dizzy, Duke, Brother Ray, and
-                Friends</cite>, was published by the University of Illinois Press in 2017.</h5>
-
-        <img class="d-block w-100" src="images/lilian-terry-home.jpg" alt="Jazz Singer Lilian Terry with Dizzy Gillespie, Duke Ellington, Abbey Lincoln and Dave Brubeck">
-
-    </div> <!-- End of .container -->
-
-    <footer>© Lilian Terry. All Rights Reserved. Design: Julia Crosara</footer>
+        <div class="container-home">
+            <img src="images/lilian-terry-home.jpg" class="home-image img-fluid mb-4 shadow" alt="">
+            <blockquote class="p-4">Lilian Terry has been active in the jazz field since the late 1950s as a singer, journalist, Italian radio and TV producer, concert organizer, and educator. Her first book, <cite>Dizzy, Duke, Brother Ray, and
+                    Friends</cite>,
+                was published by the University of Illinois Press in 2017.</blockquote>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">© Lilian Terry. Web Design: Julia Crosara</span>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
