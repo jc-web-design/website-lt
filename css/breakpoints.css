@@ -1,0 +1,65 @@
+/* media queries */
+
+
+@media only screen and (max-width: 900px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .rev-duke,
+    .rev-max,
+    .rev-diz,
+    .rev-abbey,{
+        max-width: 95%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .rev-duke,
+    .rev-max,
+    .rev-diz,
+    .rev-abbey,
+    .book-cover-image {
+        display: none;
+    }
+
+    .home-title,
+    .header-discography {
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    .subhead {
+        display: none;
+    }
+
+    .lt {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 1.65rem;
+    }
+
+    .header,
+    .header-home {
+        height: 90px;
+    }
+
+    blockquote,
+    .lt {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .footer {
+        font-size: 70%;
+    }
+}

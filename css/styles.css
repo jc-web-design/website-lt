@@ -5,29 +5,39 @@
 }
 
 a {
-    color: #067fa7;
+    color: #bd574e;
 }
+
 
 blockquote {
     padding: 3% 0;
+    color: #1c819e;
+    font-size: 1.3rem;
     text-align: justify;
-    line-height: 2;
-    font-style: italic;
-    color: #bd574e;
-    font-size: 1.2rem;
 }
+
+.blockquote-footer {
+    font-size: 80%;
+    display: block;
+    color: #959ca0;
+    text-align: right;
+}
+
+
 
 body {
-    text-align: center;
     background-color: #fff;
-    font-family: 'Cantarell', sans-serif;
     color: #3c4245;
+    font-size: 1.1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    line-height: 2;
+
 }
 
-footer {
-    color: #5f6769;
-    font-size: .8rem;
-    margin: 1rem 0;
+h1 {
+    font-family: 'Grand Hotel', cursive;
+    /* padding: 2%; */
+    font-size: 6rem;
 }
 
 h2 {
@@ -41,167 +51,184 @@ h2 {
 
 h3,
 h4 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     padding-bottom: 10px;
     color: #1c819e;
 }
 
 h5 {
-    font-size: 1.175rem;
-    color: #1a6e8b;
-    margin: 1rem;
+    font-size: 1.25rem;
+    color: #1c819e;
+}
+
+p {
+    text-align: left;
 }
 
 /* Navigation Bar */
-.navbar-brand {
-    font-family: "Sacramento", cursive;
-    font-size: 2.5rem;
-    color: #990000!important;
-    margin-right: 1%;
+
+.bg-dark {
+    background-color: #000!important;
 }
 
-nav {
-    background-color: #fff!important;
+.header {
+    background-color: #990000;
+    color: #fff;
+    text-align: center;
+    padding: 1.5% 0 1% 0;
+    margin-bottom: 5%;
+    height: 130px;
 }
 
-.bg-light {
-    background-color: #fff!important;
+.header-home {
+    background-color: #990000;
+    color: #fff;
+    text-align: center;
+    padding: 1.5% 0 1% 0;
+    margin-bottom: 5%;
+    height: 180px;
 }
 
-.header-photos {
-    margin-left: 8%;
+.home-title {
+    margin-bottom: -2rem;
+    font-size: 8rem;
 }
 
-/* Containers */
-.container {
-    max-width: 80%;
-    padding-bottom: 1rem;
-    height: 100%;
-}
-
-.container-contact {
-    margin-top: 100px;
-    padding-top: : 40px;
-    justify-content: center;
+.subhead {
+    font-size: 2.2rem;
+    color: #d33a3a;
+    text-transform: uppercase;
+    font-stretch: extra-expanded;
     text-align: center;
 }
 
 /* Index page */
+
+.container {
+    max-width: 65%
+}
+
+.container-home {
+    text-align: center;
+}
+
 .lt {
+    padding: 3% 0;
+    font-size: 1.3rem;
     text-align: justify;
-    display: block;
 }
 
-/* Biography Page */
-.biography-content {
-    text-align: left;
-    padding: 1.5rem;
+.home-image {
+    border: 4px solid white;
 }
 
-.biography-image {
-    width: 33%;
-    height: auto;
-    float: right;
-    border: 3px solid white;
-    box-shadow:
-        0px 4px 3px rgba(0, 0, 0, 0.4),
-        0px 6px 8px rgba(0, 0, 0, 0.1),
-        0px 6px 8px rgba(0, 0, 0, 0.1);
+/* Book */
+
+.book-header {
+    color: #a9be3b;
 }
 
-.subhead {
-    color: #1c819e;
-    font-size: 1.2rem;
+.jaunty {
+    text-align: center;
+    color: white;
 }
 
-.names {
-    color: #1c819e;
-    font-size: 1rem;
+.jaunty-bg {
+    background-color: #a9be3b;
+}
+
+.book-cover-image {
+    width: auto;
+    max-height: 300px;
+    float: left;
+    margin-bottom: 2.25rem;
+    margin-right: 2.25rem;
+    border: 5px solid #fff;
 }
 
 /* Discography Page */
+
+.header-discography {
+    font-size: 6rem;
+}
+
 .cd {
-    padding: 10px 0;
-    width: 100%;
-    display: inline-block;
+    text-align: center;
+}
+
+.cd-card {
+    max-width: 280px;
+    min-width: 240px;
+    height: auto;
+    line-height: 1.5
 }
 
 .cd-cover {
-    width: 220px;
+    max-width: 280px;
+    min-width: 240px;
     height: auto;
-    padding: 0 30px 20px 0;
-    float: left;
 }
 
-/* Book Page */
-.book-cover-image {
-    width: 30%;
-    height: auto;
-    float: right;
-    margin-bottom: 1.25rem;
-    margin-left: 1.25rem;
-    border: 5px solid #fff;
-    box-shadow:
-        0px 4px 3px rgba(0, 0, 0, 0.4),
-        0px 6px 8px rgba(0, 0, 0, 0.1),
-        0px 6px 8px rgba(0, 0, 0, 0.1);
+.card-title {
+    font-size: 95%;
+    margin-top: 0;
 }
 
-.content {
+.card-text {
+    font-size: 80%;
     text-align: left;
-    padding: .5rem 1rem;
 }
+
+.gitler {
+    text-align: center;
+}
+
 
 /* Reviews page */
-.downbeat-image {
-    width: 40%;
-    float: right;
-    margin-bottom: 1.2rem;
-    margin-left: 1.2rem;
-    border: 5px solid #067fa7;
-    box-shadow:
-        0px 4px 3px rgba(0, 0, 0, 0.4),
-        0px 6px 8px rgba(0, 0, 0, 0.1),
-        0px 6px 8px rgba(0, 0, 0, 0.1);
+.rev-duke {
+    max-width: 65%;
+    height: auto;
+    float: left;
+    border: 4px solid white;
 }
 
-.title {
-    font-weight: bold;
-    font-size: 1.1em;
+.rev-abbey {
+    max-width: 65%;
+    height: auto;
+    float: right;
+    border: 4px solid white;
 }
+
+.rev-max {
+    max-width: 65%;
+    height: auto;
+    float: right;
+    border: 4px solid white;
+}
+.rev-diz {
+    max-width: 65%;
+    height: auto;
+    float: left;
+    border: 4px solid white;
+}
+
+.publication {
+    margin-top: 4%;
+}
+
+.title-link {
+    margin-bottom: 20px;
+    background-color: #ebeff1;
+    padding: 2%;
+}
+
 
 /* Photos Page */
-.carousel-inner {
-    overflow: hidden;
+
+.container-thumbnails {
+    text-align: center;
 }
 
-/* Contact Page */
-.contact {
-    padding-top: 20px;
-    font-size: 1.6rem;
-}
-
-.contact-caption {
-    font-size: 1rem;
-    max-width: 75%;
-    justify-content: center;
-}
-
-.contact-image {
-    width: 50%;
-    height: auto;
-    margin-bottom: 20px;
-    border: 7px solid white;
-    box-shadow:
-        0px 4px 3px rgba(0, 0, 0, 0.4),
-        0px 6px 8px rgba(0, 0, 0, 0.1),
-        0px 6px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Pull-Out Quotes */
-.blurb h2 {
-    font-size: 2rem;
-}
 
 .quote {
     width: auto;
@@ -212,4 +239,25 @@ nav {
 /* Images */
 .img-thumbnail {
     border: 1px solid #dee2e6;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 85%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    text-align: center;
 }
