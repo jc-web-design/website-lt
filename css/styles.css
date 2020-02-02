@@ -24,7 +24,6 @@ blockquote {
 }
 
 
-
 body {
     background-color: #fff;
     color: #3c4245;
@@ -32,6 +31,10 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 2;
 
+}
+
+.footer-home {
+    margin-top: 10%;
 }
 
 h1 {
@@ -98,7 +101,7 @@ p {
     font-size: 2.2rem;
     color: #d33a3a;
     text-transform: uppercase;
-    font-stretch: extra-expanded;
+    font-stretch: ultra-expanded;
     text-align: center;
 }
 
@@ -110,6 +113,8 @@ p {
 
 .container-home {
     text-align: center;
+    max-width: 960px;
+    padding-bottom: 2%;
 }
 
 .lt {
@@ -120,6 +125,37 @@ p {
 
 .home-image {
     border: 4px solid white;
+    max-width: 100;
+    height: auto;
+}
+
+.home-book {
+    margin-bottom: 10%;
+    padding-bottom: 8%;
+    /* background-color: #ebf5f4; */
+}
+
+.quote-db {
+    line-height: 1.85;
+    text-align: justify;
+    padding-top: 0;
+    color: #3c4245;
+    font-size: 1.2rem;
+}
+
+.quote-home {
+
+}
+
+.home-book-cover {
+    width: auto;
+    max-height: 250px;
+    float: left;
+    border: 5px solid #fff;
+}
+
+.footer-above {
+    height: 30px;
 }
 
 /* Book */
@@ -142,7 +178,16 @@ p {
     max-height: 300px;
     float: left;
     margin-bottom: 2.25rem;
-    margin-right: 2.25rem;
+    margin-right: 2rem;
+    border: 5px solid #fff;
+}
+
+.book-cover-book {
+    width: auto;
+    max-height: 400px;
+    float: right;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
     border: 5px solid #fff;
 }
 
@@ -202,13 +247,27 @@ p {
 .rev-max {
     max-width: 65%;
     height: auto;
+    float: left;
+    border: 4px solid white;
+}
+
+.rev-duke-bottom {
+    max-width: 65%;
+    height: auto;
+    float: left;
+    border: 4px solid white;
+}
+
+.rev-lil-pistoia {
+    max-width: 65%;
+    height: auto;
     float: right;
     border: 4px solid white;
 }
 .rev-diz {
     max-width: 65%;
     height: auto;
-    float: left;
+    float: right;
     border: 4px solid white;
 }
 

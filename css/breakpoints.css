@@ -8,8 +8,10 @@
 
     .rev-duke,
     .rev-max,
+    .rev-duke-bottom,
     .rev-diz,
-    .rev-abbey,{
+    .rev-abbey,
+    .rev-lil-pistoia, {
         max-width: 95%;
         height: auto;
     }
@@ -19,9 +21,12 @@
 @media only screen and (max-width: 650px) {
     .rev-duke,
     .rev-max,
+    .rev-duke-bottom,
     .rev-diz,
     .rev-abbey,
-    .book-cover-image {
+    .rev-lil-pistoia,
+    .book-cover-image,
+    .book-cover-book {
         display: none;
     }
 
