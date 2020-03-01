@@ -1,20 +1,10 @@
 /* media queries */
 
 
-@media only screen and (max-width: 900px) {
-    .container {
+@media only screen and (max-width: 1200px) {
+    /* .container {
         max-width: 80%;
-    }
-
-    .rev-duke,
-    .rev-max,
-    .rev-duke-bottom,
-    .rev-diz,
-    .rev-abbey,
-    .rev-lil-pistoia, {
-        max-width: 95%;
-        height: auto;
-    }
+    } */
 
 }
 
@@ -61,10 +51,19 @@
     blockquote,
     .lt {
         font-size: 1rem;
-        text-align: left;
     }
 
     .footer {
         font-size: 70%;
     }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    /* .cards {
+        max-width: 900px;
+        height: auto;
+
+    } */
+
 }
