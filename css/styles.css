@@ -96,16 +96,16 @@ p {
     text-align: center;
     padding: 1.5% 0 1% 0;
     margin-bottom: 5%;
-    height: 180px;
+    /* height: 180px; */
 }
 
 .home-title {
     margin-bottom: -2rem;
-    font-size: 8rem;
+    font-size: 9rem;
 }
 
 .subhead {
-    font-size: 2.2rem;
+    font-size: 2.8rem;
     color: #d33a3a;
     text-transform: uppercase;
     font-stretch: ultra-expanded;
@@ -125,6 +125,12 @@ p {
 
 .container-home {
     text-align: justify;
+}
+
+.card,
+.card-img,
+.card-img-top {
+    border-radius: 0;
 }
 
 .lt {
@@ -156,6 +162,13 @@ p {
     background-color: #eee9e1;
 }
 
+.card-title {
+    line-height: 1.75;
+    font-size: 90%;
+}
+ .card-text {
+     line-height: 1.75;
+ }
 
 .home-book-cover {
     border: 5px solid #fff;
