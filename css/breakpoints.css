@@ -8,7 +8,7 @@
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
     .rev-duke,
     .rev-max,
     .rev-duke-bottom,
@@ -60,10 +60,6 @@
 
 @media only screen and (min-width: 1000px) {
 
-    /* .cards {
-        max-width: 900px;
-        height: auto;
 
-    } */
 
 }

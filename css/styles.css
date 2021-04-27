@@ -1,12 +1,12 @@
 
 
 a {
-    color: #bd574e;
+    color: #287d8c;
     text-decoration: none;
 }
 
 a:hover {
-  color: #3c4245;
+  color: #76bcc4;
   text-decoration: none;
 }
 
@@ -18,6 +18,7 @@ blockquote {
     padding: 3% 0;
     color: #1c819e;
     text-align: justify;
+    font-size: 1.6rem;
 }
 
 .blockquote-footer {
@@ -53,23 +54,25 @@ h2 {
     line-height: 1.8;
 }
 
-h3,
-h4 {
-    font-size: 1.8rem;
-    padding-bottom: 10px;
-    color: #1c819e;
+h3 {
+    font-size: 2.5rem;
+    color: #408fc1;
     text-align: left;
-    line-height: 1.5;;
+    line-height: 1.5;
 }
 
 h5 {
     font-size: 1.5rem;
-    color: #1c819e;
+    text-align: left;
+    color: #719cbd;
+    padding-bottom: .5rem;
 }
 
 p {
-    text-align: left;
+    text-align: justify;
 }
+
+
 
 /* Navigation Bar */
 
@@ -81,9 +84,9 @@ p {
     background-color: #990000;
     color: #fff;
     text-align: center;
-    padding: 1.5% 0 1% 0;
+    padding: 1% 0;
     margin-bottom: 5%;
-    height: 130px;
+    height: auto;
 }
 
 .header-home {
@@ -91,13 +94,18 @@ p {
     color: #fff;
     text-align: center;
     padding: 1.5% 0 1% 0;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     /* height: 180px; */
 }
 
 .home-title {
     margin-bottom: -2rem;
     font-size: 9rem;
+}
+
+.ce-title {
+  margin-bottom: -1.75rem;
+  font-size: 6rem;
 }
 
 .subhead {
@@ -108,19 +116,26 @@ p {
     text-align: center;
 }
 
+
+
+.ce-subhead {
+  font-size: 2rem;
+  color: #d33a3a;
+  text-transform: uppercase;
+  font-stretch: ultra-expanded;
+  text-align: center;
+}
+
 .mailto {
     color: #d33a3a;
 }
 
+
 /* Index page */
 
-.container {
-    /* max-width: 50%; */
-    text-align: center;
-}
-
 .container-home {
-    text-align: justify;
+    text-align: center;
+    max-width: 60%;
 }
 
 .card,
@@ -137,7 +152,7 @@ p {
 
 .home-image {
     border: 4px solid white;
-    /* max-width: 100%; */
+    max-width: 100%;
     height: auto;
 }
 
@@ -172,6 +187,16 @@ p {
 
 .footer-above {
     height: 30px;
+}
+
+/* Close Encounters */
+
+.list-group-item-primary {
+  background-color: #9fcce8;
+}
+
+.list-group-item-warning {
+  background-color: #ff7f76b1;
 }
 
 /* Book */
@@ -236,8 +261,8 @@ p {
 }
 
 .card-text {
-    font-size: 80%;
-    text-align: left;
+    font-size: 90%;
+    text-align:center;
 }
 
 .gitler {
@@ -300,9 +325,9 @@ p {
 
 /* Photos Page */
 
-.cards {
+.cards,
+.card {
     text-align: center;
-    /* max-width: 960px; */
 }
 
 .cards p {
