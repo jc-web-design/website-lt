@@ -1,24 +1,26 @@
 
 
-a {
-    color: #287d8c;
-    text-decoration: none;
-}
-
-a:hover {
-  color: #76bcc4;
-  text-decoration: none;
-}
-
 .btn-link {
+  font-size: 1rem;
   color: white!important;
 }
 
+.reviews-btn {
+  margin: 3% 0;
+}
+
 blockquote {
-    padding: 3% 0;
-    color: #1c819e;
+    /* padding: 3% 0; */
+    color: #4b6e77;
     text-align: justify;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+
+.fitzgerald {
+  color: #0894b0;
+
 }
 
 .blockquote-footer {
@@ -30,18 +32,17 @@ blockquote {
 
 
 body {
-    background-color: #fff;
-    color: #3c4245;
-    font-size: 1.1rem;
-    font-family: 'Merriweather Sans', sans-serif;
-    line-height: 2;
+    color: #2f3335;
+    font-size: 1.2rem;
+    line-height: 1.8;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 
 }
 
 h1 {
     font-family: 'Grand Hotel', cursive;
-    /* padding: 2%; */
+    padding: 2%;
     font-size: 6rem;
 }
 
@@ -56,22 +57,55 @@ h2 {
 
 h3 {
     font-size: 2.5rem;
-    color: #408fc1;
+    color: #a03d3d;
     text-align: left;
-    line-height: 1.5;
+}
+
+h4 {
+  font-size: 2rem;
+  color: #708287;
+  text-align: left;
 }
 
 h5 {
-    font-size: 1.5rem;
     text-align: left;
-    color: #719cbd;
-    padding-bottom: .5rem;
+    color: #1e535e;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 p {
     text-align: justify;
 }
 
+a {
+  color: #508cb1;
+  /* font-size: 1.3rem; */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.border-quote {
+  color: #386e81!important;
+}
+
+.up {
+  font-size: 3rem;
+  color: #508cb1;
+  text-align: right;
+} 
+
+.card {
+  border: 0;
+}
+
+.card-body {
+  text-align: left;
+  padding-left: 0;
+}
 
 
 /* Navigation Bar */
@@ -85,7 +119,7 @@ p {
     color: #fff;
     text-align: center;
     padding: 1% 0;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     height: auto;
 }
 
@@ -100,26 +134,19 @@ p {
 
 .home-title {
     margin-bottom: -2rem;
-    font-size: 9rem;
-}
-
-.ce-title {
-  margin-bottom: -1.75rem;
-  font-size: 6rem;
+    font-size: 6rem;
 }
 
 .subhead {
-    font-size: 2.8rem;
+    font-size: 2rem;
     color: #d33a3a;
     text-transform: uppercase;
     font-stretch: ultra-expanded;
     text-align: center;
 }
 
-
-
 .ce-subhead {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #d33a3a;
   text-transform: uppercase;
   font-stretch: ultra-expanded;
@@ -152,8 +179,7 @@ p {
 
 .home-image {
     border: 4px solid white;
-    max-width: 100%;
-    height: auto;
+    padding-top: 1em;
 }
 
 .home-book {
@@ -173,12 +199,13 @@ p {
     background-color: #eee9e1;
 }
 
-.card-title {
-    line-height: 1.75;
-    font-size: 90%;
-}
- .card-text {
+.card-text {
      line-height: 1.75;
+     text-align: left;
+ }
+
+ .card-body {
+   text-align:left;
  }
 
 .home-book-cover {
@@ -189,14 +216,18 @@ p {
     height: 30px;
 }
 
-/* Close Encounters */
+/* Portraits */
 
-.list-group-item-primary {
-  background-color: #9fcce8;
+.list-group a {
+  font-size: 1.5rem;
 }
 
-.list-group-item-warning {
-  background-color: #ff7f76b1;
+.chick-quote {
+  color: #b14c44;
+}
+
+.img-cite {
+  font-size: 80%;
 }
 
 /* Book */
@@ -216,18 +247,17 @@ p {
 
 .book-cover-image {
     width: auto;
-    max-height: 275px;
+    max-height: 320px;
     float: left;
-    margin-bottom: 2.25rem;
-    margin-right: 2rem;
+    margin-right: 3rem;
     border: 5px solid #fff;
 }
 
 .book-cover-book {
-    width: auto;
-    max-height: 350px;
+    width: 50%;
+    height: auto;
     float: right;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     margin-left: 2rem;
     border: 5px solid #fff;
 }
@@ -255,15 +285,10 @@ p {
     height: auto;
 }
 
-.card-title {
-    font-size: 95%;
+/* .card-title {
     margin-top: 0;
-}
+} */
 
-.card-text {
-    font-size: 90%;
-    text-align:center;
-}
 
 .gitler {
     text-align: center;
@@ -271,6 +296,8 @@ p {
 
 
 /* Reviews page */
+
+
 .rev-duke {
     max-width: 65%;
     height: auto;
@@ -322,6 +349,10 @@ p {
     padding: 2%;
 }
 
+/* Bio Page */
+.bio {
+  color: #11869d;
+}
 
 /* Photos Page */
 
@@ -331,12 +362,10 @@ p {
 }
 
 .cards p {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
-.cards-title {
-    font-size: 100%;
-}
+
 
 
 .quote {
@@ -350,8 +379,7 @@ p {
     border: 1px solid #dee2e6;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer styles*/
 html {
   position: relative;
   min-height: 100%;

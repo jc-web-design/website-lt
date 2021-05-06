@@ -1,14 +1,18 @@
 /* media queries */
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 773px) {
     /* .container {
         max-width: 80%;
     } */
 
+    blockquote {
+      font-size: 1.2rem;
+    }
+
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     .rev-duke,
     .rev-max,
     .rev-duke-bottom,
@@ -30,9 +34,11 @@
         display: none;
     }
 
-    .lt {
+    .lt,
+    .bio {
         font-size: 1.2rem;
-        padding: 0;
+        text-align:left;
+
     }
 
     h1 {
@@ -48,18 +54,22 @@
         height: 90px;
     }
 
-    blockquote,
-    .lt {
-        font-size: 1rem;
-    }
+    .cards-title,
+    .cards-text
+    {
+      font-size: 80%;
+  }
+  
 
     .footer {
         font-size: 70%;
     }
 }
 
-@media only screen and (min-width: 1000px) {
-
+@media only screen and (min-width: 1400px) {
+ .main {
+   width: 60%;
+ }
 
 
 }
