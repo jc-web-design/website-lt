@@ -12,7 +12,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/breakpoints.css">
 
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Merriweather+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+     <!-- Icon fonts -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
     <title>Jazz Singer Lilian Terry</title>
 
@@ -24,7 +31,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-<div class="collapse navbar-collapse" id="navbarsExample05">
+        <div class="collapse navbar-collapse" id="navbarsExample05">
           <ul class="navbar-nav mx-auto">
               <li class="nav-item active">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
@@ -32,9 +39,9 @@
               <li class="nav-item">
                   <a class="nav-link" href="book.html">Book</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="encounters.html">Close Encounters</a>
-            </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="portraits.html">Portraits</a>
+            </li> -->
               <li class="nav-item">
                   <a class="nav-link" href="reviews.html">Reviews</a>
               </li>
@@ -52,119 +59,114 @@
               </li>
           </ul>
         </div>
-
     </nav>
-    <div class="header-home pb-2">
+
+    <div class="header-home">
         <h1 class="home-title">Lilian Terry</h1>
-        <p class="subhead mb-2">a lifetime of jazz</p>
+        <p class="subhead">a lifetime of jazz</p>
     </div>
     <div class="container text-center">
+      <img src="images/LT-Home.png" class="home-image img-fluid" alt="Graphic of Lilian Terry with Dizzy Gillespie, Duke Ellington, Abbey Lincoln, and Dave Brubeck">
 
-        <img src="images/lilian-terry-home.jpg" class="home-image img-fluid mb-4 shadow" alt="">
+      <div class="container p-5">
+        <blockquote class="gold-font">Lilian Terry has been active in the jazz field since the late 1950s as a singer, journalist, Italian radio and TV producer, concert organizer, and educator. Her first book, Dizzy, Duke, Brother Ray, and Friends, was published by the University of Illinois Press in 2017.  
+        </blockquote>
+      </div>
 
-        <blockquote class="mx-3">Lilian Terry has been active in the jazz field since the late 1950s as a singer, journalist, Italian radio and TV producer, concert organizer, and educator. Her first book, <cite>Dizzy, Duke, Brother
-                Ray, and
-                Friends</cite>, was published by the University of Illinois Press in 2017.</blockquote>
     </div>
 
-    <div class="w-100 home-book py-5 text-center">
-        <div class="container">
-            <img class="book-cover-image shadow mr-4 mt-4" src="images/Lilian-Terry-Book-Cover.jpg" alt="Lilian Terry Book Cover">
-            <blockquote class="mx-3"><cite>Dizzy, Duke, Brother Ray and Friends</cite> offers a positive glimpse into the world of beloved jazz artist personalities with amusing anecdotes. From Ellington’s poetry to conversations with Roach,
+    <!-- Book -->
+    <div class="home-book text-center">
+        <div class="container p-5">
+            <img class="shadow book-cover-image" src="images/Lilian-Terry-Book-Cover.jpg" alt="Dizzy, Duke, Brother Ray and Friends, Book Cover">
+            <blockquote class="pt-0">
+              <cite>Dizzy, Duke, Brother Ray and Friends</cite> offers a positive glimpse into the world of beloved jazz artist personalities with amusing anecdotes. From Ellington’s poetry to conversations with Roach,
                 Charles, Silver, and Gillespie, Terry’s shared experiences and interviews present a captivating look into the world of jazz and its private moments.
-                <footer class="blockquote-footer">Kerilie McDowall, DownBeat Magazine</footer>
+              <footer class="blockquote-footer">Kerilie McDowall, DownBeat Magazine</footer>
             </blockquote>
-            <button type="button" class="btn btn-secondary"><a class="btn-link nav-link" href="reviews.html">
-                    Read the full review</a></button>
         </div>
-
+        <div class="container text-center mt-4 pb-3">
+          <button type="button" class="btn btn-info btn-sm  reviews-btn"><a class="btn-link nav-link" href="reviews.html">
+          BOOK REVIEWS</a></button>
+        </div> 
     </div>
 
-    <div class="home-anita mt-5 p-3">
-        <div class="container text-center">
-
-            <div class="card mb-5 shadow">
-                <img src="gallery/01-lilian-terry.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Lilian Terry and Duke Ellington, Antibes/Juan les Pins, 1966</h5>
-                    <p class="card-text text-center">Ah! Love you madly, Uncle Eddie!</p>
-                </div>
+    <!-- Photos -->
+    <!-- 2-columns -->
+    <div class="container p-5">
+    <!-- first row -->
+      <div class="row">
+        <!-- left -->
+        <div class="col-md-6 col-sm-12">
+          <div class="card mt-5">
+            <img src="gallery/01-lilian-terry.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Lilian Terry and Duke Ellington, Antibes/Juan les Pins, 1966</h5>
+              <p class="mb-0">Ah! Love you madly, Uncle Eddie!</p>
             </div>
-
-            <div class="card mb-5 shadow">
-                <img src="images/home-rollins.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Sonny Rollins and Lilian Terry in Rome, 1963</h5>
-                    <p class="card-text text-justify px-5">
-                        He spent a week in Rome to discover 'my' Eternal City.
-                        We developed a strong spiritual bond and he informed me that we meet every 144 years, since ancient Egypt. Why not?</p>
-                </div>
-              
-
+          </div>
+        </div>
+        <!-- right -->
+        <div class="col-md-6 col-sm-12">
+          <div class="card my-5">
+            <img class="card-img-top" src="gallery/05-lilian-terry.png" alt="Lilian Terry and Max Roach, Milan, 1968">
+            <div class="card-body">
+                <h5 class="card-title">Lilian Terry and Max Roach, Milan, 1968</h5>
+                <p class="card-text text-left">Handsome, brilliant Max Roach, fortunate husband (then) of Abbey Lincoln.</p>
             </div>
+          </div>
+        </div>
+      </div><!-- end row -->
 
-            <div class="card mb-5 shadow">
-                <img src="images/home-anita.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Anita O'Day and Lilian Terry at Antibes Juan les Pins Festival, 1966</h5>
-                    <p class="card-text text-center">Discussing with Anita O'Day the woes of female Jazz singers.</p>
-                </div>
-            </div>
+      <!-- second row -->
+      <div class="row">
+      <!-- left -->
+      <div class="col-md-6 col-sm-12">
 
-            <div class="card mb-5 shadow">
-                <img src="images/home-errol.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title text-center">Errol Garner and Lilian Terry, RAI studio, Naples, 1961</h5>
-                    <p class="card-text text-justify w-80">He 'eloped' with me to Rome the next day to discover the Eternal City. That night in Rome, at Benefit Gala he played for free, on condition that I first sing his "Misty" with him.</p>
-                </div>
-            </div>
+ 
 
-            <div class="card mb-5">
-                <img class="card-img-top" src="gallery/05-lilian-terry.png" alt="Card image cap">
-                <div class="card-body shadow">
-                    <h5 class="card-title">Lilian Terry and Max Roach, Milan, 1968</h5>
-                    <p class="card-text text-center">Handsome, brilliant Max Roach, fortunate husband (then) of my 'sister of the soul' Abbey Lincoln.</p>
-                </div>
-            </div>
-
-            <div class="card mb-5">
-                <img class="card-img-top" src="gallery/20-lilian-terry.png" alt="Card image cap">
-                <div class="card-body text-center shadow">
-                    <h5 class="card-title">Lilian Terry with Dizzy and Tom Mackintosh, Turin, Italy, 1983</h5>
-                    <p class="card-text text-justify px-5">The official press conference regarding the unique occasion, for Italy, of a Jazz concert during a Classical Music Season. Dizzy's Quintetwould play with the RAI Symphonic Orchestra, directed
-                        by
-                        Tom Mackintosh. I sat between them on the dais to translate, with Dizzy bored (and hungry) expecting the usual trite question on why did he play a 'bent' trumpet? While I feared his outlandish answer...</p>
-                </div>
-            </div>
-
-            <div class="card mb-5">
-                <img class="card-img-top" src="gallery/18-lilian-terry.png" alt="Card image cap">
-                <div class="card-body shadow">
-                    <h5 class="card-title">Signed photograph of Tony Bennett, Rome, mid-1960s</h5>
-                    <p class="card-text text-justify px-5">He came to Rome with Count Basie's Band,
-                        totally unheralded. The Italian jazz public did not know him and wanted only to hear Basie. We became friends after the concert and in the next few days I took him around Rome and consoled him, also launching a radio coverage
-                        of his artistic achievements. We remained in contact for many years, meeting often in NY and Chicago.
-                    </p>
-                </div>
-            </div>
-
-            <button type="button" class="btn btn-secondary"><a class="btn-link nav-link" href="photos.html">
-                    See more of Lilian's photos</a></button>
+    </div>
+    <!-- left -->
+    <div class="col-md-6 col-sm-12">
+      <div class="card mb-3">
+        <img src="images/home-anita.png" class="card-img-top shadow border border-secondary" alt="...">
+        <div class="card-body">
+            <h5 class="card-title text-left mb-0 pb-0">Anita O'Day and Lilian Terry at Antibes Juan les Pins Festival, 1966</h5>
+            <p class="card-text text-left">Discussing with Anita O'Day the woes of female Jazz singers.</p>
         </div>
     </div>
+
+
+      <!-- <div class="card">
+        <img class="card-img-top shadow border border-secondary" src="gallery/11-lilian-terry.png" alt="Lilian Terry and Mal Waldron, Italy, late 1960s">
+        <div class="card-body">
+            <h5 class="card-title">Lilian Terry & Mal Waldron, Italy, late 1960s</h5>
+            <p class="card-text text-justify">With pianist Mal Waldron who toured with me for a few years. Having been Billie Holiday's pianist, we spoke a lot about her. He had a subtle, sharp sense of humour and we teased each other a lot. He would play pranks on me when performing at some important Festival, like playing a long complicated intro then, as I would open my mouth to sing, he would start the long complicated intro all over again and I would hear his "heh, heh, heh!"</p>
+        </div>
+      </div> -->
+
+  <!-- button -->
+
+    </div>
+        <div class="text-center">
+        <button type="button" class="btn btn-info">
+          <a class="btn-link nav-link" href="photos.html">MORE PHOTOS</a>
+        </button>
+      </div>
+
+
 
     <footer class="footer">
-      <div class="text-center">
-          <span class="text-muted">© 2021 Lilian Terry. All rights reserved. Web Design: <a href="http://www.juliacrosara.com" target="_blank">Julia Crosara</a></span>
+      <div class="container">
+          <span class="text-muted">© 2021 Lilian Terry. All rights reserved. Web Design: Julia Crosara</span>
       </div>
-  </footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
