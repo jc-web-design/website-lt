@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Icon fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     
 
     <title>Jazz Singer Lilian Terry</title>
@@ -25,41 +28,40 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarsExample05">
-          <ul class="navbar-nav mx-auto">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="book.html">Book</a>
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" href="portraits.html">Portraits</a>
-            </li> -->
-              <li class="nav-item">
-                  <a class="nav-link" href="reviews.html">Reviews</a>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="biography.html">Biography</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="discography.html">Discography</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="photos.html">Photos</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link mailto" href="mailto:lilian@lilianterry.com">Email Lilian</a>
-              </li>
-          </ul>
-        </div>
-        
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarsExample05">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="book.html">Book</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="memoirs.html">Jazz Memoirs</a>
+      </li>
+        <li class="nav-item">
+            <a class="nav-link" href="reviews.html">Reviews</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="biography.html">Biography</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="discography.html">Discography</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link mailto" href="mailto:lilian@lilianterry.com">Email Lilian</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
     <div class="header">
         <h1>Lilian's Book</h1>
@@ -73,13 +75,13 @@
 
         <p><em>From the University of Illinois Press <a href="https://www.press.uillinois.edu/books/catalog/55zfg8qe9780252083167.html" target="_blank">online catalog</a></em>:</p>
 
-        <img class="book-cover-book shadow" src="images/Lilian-Terry-Book-Cover.jpg" alt="Lilian Terry Book Cover">
+        <img class="book-cover-book shadow w-50" src="images/Lilian-Terry-Book-Cover.jpg" alt="Lilian Terry Book Cover">
 
-        <p>Lilian Terry has lived music. As a performer, she has shared the stage with Ella Fitzgerald and Nina Simone. She cofounded the European Jazz Federation and pioneered jazz education in Italy. Her work as a director-producer of radio
+        <p class="book-text">Lilian Terry has lived music. As a performer, she has shared the stage with Ella Fitzgerald and Nina Simone. She cofounded the European Jazz Federation and pioneered jazz education in Italy. Her work as a director-producer of radio
             and
             television programs has spread the music by introducing countless people to its legendary performers.
 
-            <p>Drawing on Terry’s long friendships and professional associations, <cite>Dizzy, Duke, Brother Ray, and Friends</cite> offers readers a rare opportunity to hear intimate conversations with some of the world’s greatest musical
+            <p class="book-text">Drawing on Terry’s long friendships and professional associations, <cite>Dizzy, Duke, Brother Ray, and Friends</cite> offers readers a rare opportunity to hear intimate conversations with some of the world’s greatest musical
                 figures.
                 Dizzy
                 Gillespie offers his thoughts on playing with “sanctified” rhythm and the all-important personal touch in performance. Duke Ellington discourses on jazz history and concludes an interview to sing a self-written ditty in Italian.
@@ -89,7 +91,7 @@
                 collection
                 of
                 profiles, some stretching over a decade or more, that reveal these performers in ways that illuminate their humanity and expand our appreciation of their art.
-                <div class="book-quote">
+                <div class="book-quote mt-5">
                     <blockquote>
                         “Lively, well-written, and engaging. Lilian Terry has written nuanced portraits gained from the affection and trust these artists placed in her personally, as a professional in her field, as well as being a talented jazz
                         singer.
@@ -98,7 +100,7 @@
                         <footer class="blockquote-footer">Tad Hershorn, author of <cite>Norman Granz: The Man Who Used Jazz for Justice</cite></footer>
                     </blockquote>
                 </div>
-                <div class="jaunty-bg">
+                <div class="jaunty-bg my-3">
                     <blockquote class="jaunty">
                         "A jaunty memoir."
                         <footer class="blockquote-footer jaunty">New York City Jazz Record</footer>
@@ -118,11 +120,16 @@
 
     </div><!-- end container -->
 
-    <footer class="footer">
-      <div class="container">
-          <span class="text-muted">© 2021 Lilian Terry. All rights reserved. Web Design: Julia Crosara</span>
-      </div>
-    </footer>
+    <div class="container text-center">
+
+      <footer class="footer text-center">
+        <div class="container mt-5 m-0 p-0">
+
+            <span class="text-muted">© 2021 Lilian Terry. All rights reserved. Web Design: Julia Crosara</span>
+        </div>
+      </footer>
+  
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

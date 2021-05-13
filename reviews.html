@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/breakpoints.css">
 
+  <!-- Icon fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Merriweather+Sans&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,7 +25,7 @@
 </head>
 
 <body>
-  <!-- Navigation -->
+
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,15 +34,15 @@
     <div class="collapse navbar-collapse" id="navbarsExample05">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="book.html">Book</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="portraits.html">Portraits</a>
-        </li> -->
-        <li class="nav-item active">
+        <li class="nav-item">
+          <a class="nav-link" href="memoirs.html">Jazz Memoirs</a>
+      </li>
+        <li class="nav-item">
             <a class="nav-link" href="reviews.html">Reviews</a>
         </li>
         <li class="nav-item">
@@ -47,7 +51,7 @@
         <li class="nav-item">
             <a class="nav-link" href="discography.html">Discography</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
             <a class="nav-link" href="photos.html">Photos</a>
         </li>
         <li class="nav-item">
@@ -61,50 +65,37 @@
       <h1>Book Reviews</h1>
   </div>
 
-  <div class="container mt-5">
-    <!-- links to articles and blogs -->
-    <div class="title-link"><a href="#db"> DownBeat Magazine</a></div>
-    <div class="title-link"><a href="#ars"> Association for Recorded Sound Collections Journal</a></div>
-    <div class="title-link"> <a href="#nyc">The New York City Jazz Record</a></div>
-    <div class="title-link"> 
-      <h5>Musica Jazz</h5>
-      <a href="images/Musica-Jazz-Interview-Lilian-Terry.pdf" target="_blank">Read the review in Italian (pdf file)</a>
+<div class="container">
+
+  <div class="container">
+   <!-- links to articles and blogs -->
+    <div class="list-group mt-5">
+      <a href="#db" class="list-group-item list-group-item-action" aria-current="true">
+        DownBeat Magazine</a>
+      <a href="#ars" class="list-group-item list-group-item-action">Association for Recorded Sound Collections Journal</a>
+      <a href="#nyc" class="list-group-item list-group-item-action">The New York City Jazz Record</a>
+      <a href="images/Musica-Jazz-Interview-Lilian-Terry.pdf" target="_blank" class="list-group-item list-group-item-action">Musica Jazz</a>
+      <a href="https://fr.calameo.com/read/00403221003c341f6243c?page=1" target="_blank" class="list-group-item list-group-item-action">Le Jazzophone</a>
+      <a href="images/Lilian-Terry-Review.pdf" target="_blank" class="list-group-item list-group-item-action">JazzWise</a>
+
+      <a href="http://www.citizenjazz.com/Lilian-Terry.html" target="_blank" class="list-group-item list-group-item-action">Citizen Jazz</a>
+
+      <a href="https://jazzdagama.com/booksmiscellany/lilian-terry-off-record-dizzy-duke-brother-ray-friends/" target="_blank" class="list-group-item list-group-item-action">JazzdaGama</a>
+      <a href="http://www.ronslate.com/new_music_titles_jas_obrecht_will_friedwald_fred_hersch_and_lilian_terry/" target="_blank" class="list-group-item list-group-item-action">On the Seawall</a>
     </div>
+ </div>
+  <!-- end links to articles and blogs -->
 
-    <div class="title-link">
-      <h5>Le Jazzophone</h5>
-      <a href="https://fr.calameo.com/read/00403221003c341f6243c?page=1" target="_blank">Read the review online (page 7)</a>
+  <div class="container card">
+    <img class="card-img-top img-reviews" src="gallery/03-lilian-terry.jpg" alt="Lilian Terry and Duke Ellington">
+    <div class="card-body bg-card-body pl-0">
+        <h5 class="card-title pt-2">Lilian Terry and Duke Ellington</h5>
+        <p class="card-text caption">Ah, Maestro, how can I ever thank you for having the orchestra play "Star-Crossed Lovers" for me?</p>
     </div>
+</div>
 
-    <div class="title-link">
-        <h5>JazzWise</h5>
-        <a href="images/Lilian-Terry-Review.pdf" target="_blank">Read
-            the review (pdf file)</a>
-    </div>
 
-    <div class="title-link">
-        <h5>LE JAZZ A SA TRIBUNE</h5>
-        <a href="http://www.citizenjazz.com/Lilian-Terry.html" target="_blank">Read the online review in French</a>
-    </div>
-
-    <div class="title-link">
-        <h5 class="title">JazzdaGama</h5>
-        <a href="https://jazzdagama.com/booksmiscellany/lilian-terry-off-record-dizzy-duke-brother-ray-friends/" target="_blank">Read the online review</a>
-    </div>
-
-    <div class="title-link">
-        <h5 class="title">ArtsJournal: Rifftides blog</h5>
-        <a href="https://www.artsjournal.com/rifftides/2018/04/monday-book-recommendation-lilian-terrys-jazz-friends.html" target="_blank">Read the blog post</a>
-    </div>
-
-    <div class="title-link">
-        <h5 class="title">On the Seawall</h5>
-        <a href="http://www.ronslate.com/new_music_titles_jas_obrecht_will_friedwald_fred_hersch_and_lilian_terry/" target="_blank">Read the blog post</a>
-    </div>
-
-  </div>
-
-  <div class="container content mt-5">
+  <div class="container content pt-3">
 
     <h3 id="db">Sisters of the Soul</h3>
     <p>by Kerilie McDowall</p>
@@ -193,6 +184,10 @@
               PDF file of DownBeat review</a>
       </span>
 
+      <div class="up text-center">
+        <a href="#top"><i class="bi bi-arrow-up-square p-0"></i></a>
+    </div>
+
     <div class="publication">
         <h3 id="ars">Association for Recorded Sound Collections Journal</h3>
     </div>
@@ -238,13 +233,7 @@
         decades) are the subject of <cite>Dizzy, Duke, Brother Ray, and
             Friends.</cite></p>
 
-    <div class="card mb-5">
-        <img class="card-img-top img-reviews" src="gallery/03-lilian-terry.jpg" alt="Lilian Terry and Duke Ellington">
-        <div class="card-body shadow">
-            <h5 class="card-title text-center">Lilian Terry and Duke Ellington</h5>
-            <p class="card-text text-center">Ah, Maestro, how can I ever thank you for having the orchestra play "Star-Crossed Lovers" for me?</p>
-        </div>
-    </div>
+
 
     <p>Duke Ellington, whom Terry first met in 1966 at the Antibes Jazz
         Festival, always had a suave and sophisticated public persona,
@@ -304,10 +293,7 @@
           Angela Davis.</p>
 
       <blockquote class="border-start p-5 border-5 border-quote">
-        "The anecdotes are not generic rehashes that have
-        been told before elsewhere, but instead have a freshness and
-        singularity that makes one think of a great improvisation."<br>
-        <footer class="blockquote-footer mt-2">Michael Fitzgerald, Association for Recorded Sound Collections Journal</footer>
+        Of all the subjects in this book, it is Gillespie who is portrayed most completely. The coverage includes discussion of his composing, the musical innovations of bebop, and his relationship with Charlie Parker. He talks about religion, his family, even his diabetes. The reader is treated to not just an hour or an afternoon spent in the company of the artist, but multiple days in great detail.
       </blockquote>
 
       <p>The chapter on Horace Silver begins with a long prelude to a 1968
@@ -365,9 +351,9 @@
 
       <div class="card mb-5">
         <img src="gallery/22-Dizzy-Citizen.png" class="card-img-top img-fluid" alt="Dizzy Gillespie & Lilian Terry, Bassano, Italy, 1987">
-        <div class="card-body">
-            <h5 class="card-title">Dizzy Gillespie & Lilian Terry, Bassano, Italy, 1987</h5>
-            <p class="card-text">Dizzy becoming an Honorary Citizen of Bassano del Grappa,
+        <div class="card-body pl-0">
+            <h5 class="card-title mb-0">Dizzy Gillespie & Lilian Terry, Bassano, Italy, 1987</h5>
+            <p class="card-text caption">Dizzy becoming an Honorary Citizen of Bassano del Grappa,
                 during his 70th birthday celebration, "Dizzy's Day."</p>
         </div>
       </div>
@@ -435,6 +421,10 @@
               <a href="images/ARSC-Lilian-Terry.pdf" target="_blank">PDF file of the review</a>
           </span></p>
 
+          <div class="up text-center">
+            <a href="#top"><i class="bi bi-arrow-up-square p-0"></i></a>
+        </div>
+
       <div class="publication">
           <h3 id="nyc">The New York City Jazz Record</h3>
           <p>by Kevin Canfield</p>
@@ -468,6 +458,7 @@
           next afternoon...that Max told me, greatly amused, that we had
           been the guests of Lucky Luciano’s brother-in-law.” </p>
 
+
       <p>After Terry, the book’s central character is probably Dizzy
           Gillespie. Friends for more than a quarter-century, Terry and
           the trumpeter collaborated on music education programs and an
@@ -484,12 +475,28 @@
           <a href="images/Lilian-Terry-NYC-Jazz-Record-Review.pdf" target="_blank">PDF file of the review</a>
       </span>
 
+      <div class="card my-5">
+        <img class="card-img-top border border-secondary" src="gallery/23-lilian-terry.png" alt="Poster for Dizzy’s Day, Bassano del Grappa, Italy, 1987">
+        <div class="card-body bg-card-body pl-0">
+            <h5 class="card-title">Dizzy’s Day Poster, Bassano del Grappa, Italy, 1987</h5>
+            <p class="card-text text-justify caption">The town celebrated Dizzy's 70th birthday and authorized me to produce "Dizzy's Day,” a concert-party with close to 100 international Jazz musicians including Max Roach, Johnny Griffin, Milt Jackson, Randy Brecker, etc. It took place at the Bassano Velodrome with over 5000 fans. From 5 pm to 2:30 am. And a huge 7-tiered pistachio birthday cake where Dizzy had to climb a ladder to blow out the candles before a roaring public.</p>
+        </div>
+    </div>
+
     </div><!-- container - content -->
-    <footer class="footer">
-      <div class="container">
-          <span class="text-muted">© 2021 Lilian Terry. All rights reserved. Web Design: Julia Crosara</span>
-      </div>
-    </footer>
+
+    <div class="container text-center">
+
+      <footer class="footer text-center">
+        <div class="container mt-5 m-0 p-0">
+          <div class="up">
+            <a href="#top"><i class="bi bi-arrow-up-square p-0"></i></a>
+        </div>
+            <span class="text-muted">© 2021 Lilian Terry. All rights reserved. Web Design: Julia Crosara</span>
+        </div>
+      </footer>
+  
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
