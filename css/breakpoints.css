@@ -10,9 +10,6 @@
       font-size: 1.2rem;
     }
 
-}
-
-@media only screen and (max-width: 550px) {
     .rev-duke,
     .rev-max,
     .rev-duke-bottom,
@@ -20,14 +17,9 @@
     .rev-abbey,
     .rev-lil-pistoia,
     .book-cover-image,
-    .book-cover-book {
+    .book-cover-book,
+    .lt-nice {
         display: none;
-    }
-
-    .home-title,
-    .header-discography {
-        font-size: 4rem;
-        margin-bottom: 0;
     }
 
     .subhead {
@@ -42,11 +34,27 @@
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
+        padding: 1%;
     }
 
+    h2 {
+      font-size: 1rem;
+  }
+  
+  h3 {
+      font-size: 1.7rem;
+  }
+
     h4 {
-        font-size: 1.65rem;
+        font-size: 1.2rem;
+    }
+
+    .header-discography,
+    .home-title {
+      font-size: 3.5rem;
+      padding: 1%;
+
     }
 
     .header,

@@ -9,6 +9,7 @@
   margin: 3% 0;
 }
 
+
 blockquote {
     /* padding: 3% 0; */
     color: #4b6e77;
@@ -34,7 +35,7 @@ blockquote {
 body {
     color: #2f3335;
     font-size: 1.2rem;
-    line-height: 1.8;
+    line-height: 1.65;
     margin: 0;
     font-family: 'Lato', sans-serif;
 
@@ -56,22 +57,24 @@ h2 {
 }
 
 h3 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
     color: #a03d3d;
     text-align: left;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #708287;
-  text-align: left;
+  text-align: justify;
+  line-height: 1.75;
 }
 
 h5 {
     text-align: left;
-    color: #1e535e;
-    font-weight: 400;
-    line-height: 1.6;
+    color: #2d6d88;
+    margin-bottom: .125rem;
+    /* font-size: 1.2rem; */
+
 }
 
 p {
@@ -88,14 +91,18 @@ a:hover {
   text-decoration: none;
 }
 
+.btn-home-memoirs {
+  font-family: 'Lato', sans-serif;
+}
+
 .border-quote {
   color: #386e81!important;
 }
 
-.up {
+.up a {
   font-size: 3rem;
-  color: #508cb1;
-  text-align: right;
+  color: #df9443;
+  /* text-align: center; */
 } 
 
 .card {
@@ -199,6 +206,13 @@ a:hover {
     background-color: #eee9e1;
 }
 
+.home-memoirs {
+  line-height: 2;
+  font-family: 'Merriweather';
+  font-size: 1.5rem;
+  color: #2d6d88;
+}
+
 .card-text {
      line-height: 1.75;
      text-align: left;
@@ -216,10 +230,20 @@ a:hover {
     height: 30px;
 }
 
-/* Portraits */
+.list-group-item {
+  background-color: #d3e7ee!important;
+  margin-bottom: 1rem;
+  /* border-radius: 0; */
+  border: 0;
+}
 
 .list-group a {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: #306271;
+}
+
+.list-group a:hover {
+  color: #ffffff;
 }
 
 .chick-quote {
@@ -236,9 +260,14 @@ a:hover {
     color: #a9be3b;
 }
 
+.book-text {
+  line-height: 2;
+}
+
 .jaunty {
     text-align: center;
     color: white;
+    padding: .5rem 0;
 }
 
 .jaunty-bg {
@@ -254,7 +283,7 @@ a:hover {
 }
 
 .book-cover-book {
-    width: 50%;
+    max-width: 40%;
     height: auto;
     float: right;
     margin-bottom: 3rem;
@@ -268,15 +297,12 @@ a:hover {
     font-size: 6rem;
 }
 
-.cd {
-    text-align: center;
-}
-
 .cd-card {
     max-width: 280px;
     min-width: 240px;
     height: auto;
-    line-height: 1.5
+    line-height: 1.5;
+    text-align: center;
 }
 
 .cd-cover {
@@ -286,17 +312,27 @@ a:hover {
 }
 
 /* .card-title {
-    margin-top: 0;
+  color: #616161;
 } */
-
 
 .gitler {
     text-align: center;
 }
 
-
 /* Reviews page */
 
+.bg-card-body {
+  padding: 0;
+  margin-bottom: 1.5rem;
+  font-size: 90%;
+}
+
+.articles a {
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #990000;
+}
 
 .rev-duke {
     max-width: 65%;
@@ -351,7 +387,27 @@ a:hover {
 
 /* Bio Page */
 .bio {
-  color: #11869d;
+  background-color: #cce0ab4c;
+}
+
+.bio-text {
+  line-height: 1.5;
+  color: #2d6d88;
+}
+
+.bio-header {
+  color: #992e2e;
+  font-size: 1.5rem;
+}
+
+lt-bio {
+  float: right;
+  text-align: right;
+}
+
+.caption {
+  font-size: 95%;
+  text-align: left;
 }
 
 /* Photos Page */
@@ -362,10 +418,12 @@ a:hover {
 }
 
 .cards p {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
-
+.card-title {
+  font-size: 1.4rem;
+}
 
 
 .quote {
@@ -379,7 +437,8 @@ a:hover {
     border: 1px solid #dee2e6;
 }
 
-/* Sticky footer styles*/
+/* Sticky footer styles */
+
 html {
   position: relative;
   min-height: 100%;
@@ -387,7 +446,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
-}
+} 
 .footer {
     position: absolute;
     bottom: 0;
