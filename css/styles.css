@@ -1,8 +1,6 @@
-
-
 .btn-link {
   font-size: 1rem;
-  color: white!important;
+  color: white !important;
 }
 
 .reviews-btn {
@@ -11,12 +9,12 @@
 
 
 blockquote {
-    /* padding: 3% 0; */
-    color: #4b6e77;
-    text-align: justify;
-    font-size: 1.4rem;
-    font-family: 'Merriweather', serif;
-    line-height: 2;
+  /* padding: 3% 0; */
+  color: #4b6e77;
+  text-align: justify;
+  font-size: 1.4rem;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
 }
 
 .fitzgerald {
@@ -25,10 +23,10 @@ blockquote {
 }
 
 .blockquote-footer {
-    font-size: 80%;
-    display: block;
-    color: #959ca0;
-    text-align: right;
+  font-size: 80%;
+  display: block;
+  color: #959ca0;
+  text-align: right;
 }
 
 html {
@@ -39,33 +37,33 @@ html {
 
 
 body {
-    color: #2f3335;
-    font-size: 1.2rem;
-    line-height: 1.65;
-    margin: 0;
-    font-family: 'Lato', sans-serif;
+  color: #2f3335;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
 
 }
 
 h1 {
-    font-family: 'Grand Hotel', cursive;
-    padding: 2%;
-    font-size: 6rem;
+  font-family: 'Grand Hotel', cursive;
+  padding: 2%;
+  font-size: 6rem;
 }
 
 h2 {
-    font-size: 1.3rem;
-    font-style: italic;
-    font-weight: 400;
-    padding-top: 10px;
-    color: #bd574e;
-    line-height: 1.8;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 10px;
+  color: #bd574e;
+  line-height: 1.8;
 }
 
 h3 {
-    font-size: 2.25rem;
-    color: #a03d3d;
-    text-align: left;
+  font-size: 2.25rem;
+  color: #a03d3d;
+  text-align: left;
 }
 
 h4 {
@@ -76,15 +74,15 @@ h4 {
 }
 
 h5 {
-    text-align: left;
-    color: #2d6d88;
-    margin-bottom: .125rem;
-    /* font-size: 1.2rem; */
+  text-align: left;
+  color: #2d6d88;
+  margin-bottom: .125rem;
+  /* font-size: 1.2rem; */
 
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 a {
@@ -102,14 +100,14 @@ a:hover {
 }
 
 .border-quote {
-  color: #386e81!important;
+  color: #386e81 !important;
 }
 
 .up a {
   font-size: 3rem;
   color: #df9443;
   /* text-align: center; */
-} 
+}
 
 .card {
   border: 0;
@@ -124,38 +122,38 @@ a:hover {
 /* Navigation Bar */
 
 .bg-dark {
-    background-color: #000!important;
+  background-color: #000 !important;
 }
 
 .header {
-    background-color: #990000;
-    color: #fff;
-    text-align: center;
-    padding: 1% 0;
-    /* margin-bottom: 5%; */
+  background-color: #990000;
+  color: #fff;
+  text-align: center;
+  padding: 1% 0;
+  /* margin-bottom: 5%; */
 
 }
 
 .header-home {
-    background-color: #990000;
-    color: #fff;
-    text-align: center;
-    padding: 1.5% 0 1% 0;
-    margin-bottom: 1%;
-    /* height: 180px; */
+  background-color: #990000;
+  color: #fff;
+  text-align: center;
+  padding: 1.5% 0 1% 0;
+  margin-bottom: 1%;
+  /* height: 180px; */
 }
 
 .home-title {
-    margin-bottom: -2rem;
-    font-size: 6rem;
+  margin-bottom: -2rem;
+  font-size: 6rem;
 }
 
 .subhead {
-    font-size: 2rem;
-    color: #d33a3a;
-    text-transform: uppercase;
-    font-stretch: ultra-expanded;
-    text-align: center;
+  font-size: 2rem;
+  color: #d33a3a;
+  text-transform: uppercase;
+  font-stretch: ultra-expanded;
+  text-align: center;
 }
 
 .ce-subhead {
@@ -166,46 +164,50 @@ a:hover {
   text-align: center;
 }
 
+.text-muted {
+  font-size: 90%;
+  padding: 0;
+}
 
 /* Index page */
 
 .container-home {
-    text-align: center;
-    max-width: 60%;
+  text-align: center;
+  max-width: 60%;
 }
 
 .card,
 .card-img,
 .card-img-top {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 .lt {
-    padding: 3% 0;
-    font-size: 1.3rem;
-    text-align: justify;
+  padding: 3% 0;
+  font-size: 1.3rem;
+  text-align: justify;
 }
 
 .home-image {
-    border: 4px solid white;
-    padding-top: 1em;
+  border: 4px solid white;
+  padding-top: 1em;
 }
 
 .home-book {
-    background-color: #ebf5f4;
-    width: 100%;
-    /* padding: 10%; */
+  background-color: #ebf5f4;
+  width: 100%;
+  /* padding: 10%; */
 }
 
 .quote-db {
-    /* line-height: 1.65; */
-    text-align: justify;
-    color: #3c4245;
-    padding: 0 1%;
+  /* line-height: 1.65; */
+  text-align: justify;
+  color: #3c4245;
+  padding: 0 1%;
 }
 
 .home-anita {
-    background-color: #eee9e1;
+  background-color: #eee9e1;
 }
 
 .home-memoirs {
@@ -216,24 +218,24 @@ a:hover {
 }
 
 .card-text {
-     line-height: 1.75;
-     text-align: left;
- }
+  line-height: 1.75;
+  text-align: left;
+}
 
- .card-body {
-   text-align:left;
- }
+.card-body {
+  text-align: left;
+}
 
 .home-book-cover {
-    border: 5px solid #fff;
+  border: 5px solid #fff;
 }
 
 .footer-above {
-    height: 30px;
+  height: 30px;
 }
 
 .list-group-item {
-  background-color: #d3e7ee!important;
+  background-color: #d3e7ee !important;
   margin-bottom: 1rem;
   /* border-radius: 0; */
   border: 0;
@@ -256,10 +258,14 @@ a:hover {
   font-size: 80%;
 }
 
+
+
+
+
 /* Book */
 
 .book-header {
-    color: #a9be3b;
+  color: #a9be3b;
 }
 
 .book-text {
@@ -267,50 +273,50 @@ a:hover {
 }
 
 .jaunty {
-    text-align: center;
-    color: white;
-    padding: .5rem 0;
+  text-align: center;
+  color: white;
+  padding: .5rem 0;
 }
 
 .jaunty-bg {
-    background-color: #a9be3b;
+  background-color: #a9be3b;
 }
 
 .book-cover-image {
-    width: auto;
-    max-height: 320px;
-    float: left;
-    margin-right: 3rem;
-    border: 5px solid #fff;
+  width: auto;
+  max-height: 320px;
+  float: left;
+  margin-right: 3rem;
+  border: 5px solid #fff;
 }
 
 .book-cover-book {
-    max-width: 40%;
-    height: auto;
-    float: right;
-    margin-bottom: 3rem;
-    margin-left: 2rem;
-    border: 5px solid #fff;
+  max-width: 40%;
+  height: auto;
+  float: right;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  border: 5px solid #fff;
 }
 
 /* Discography Page */
 
 .header-discography {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 .cd-card {
-    max-width: 280px;
-    min-width: 240px;
-    height: auto;
-    line-height: 1.5;
-    text-align: center;
+  max-width: 280px;
+  min-width: 240px;
+  height: auto;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .cd-cover {
-    max-width: 280px;
-    min-width: 240px;
-    height: auto;
+  max-width: 280px;
+  min-width: 240px;
+  height: auto;
 }
 
 /* .card-title {
@@ -318,10 +324,27 @@ a:hover {
 } */
 
 .gitler {
-    text-align: center;
+  text-align: center;
 }
 
+/* Memoirs page */
+.memoirs-next {
+  border: 6px solid #e3ebe4;
+}
+
+.lt-dg-garden {
+  /* float: right; */
+  /* margin: 0 0 1rem 1rem; */
+  border: 3px solid #adc3b1;
+}
+
+.memoirs-next h1 {
+  color: #88b897;
+}
+
+
 /* Reviews page */
+
 
 .bg-card-body {
   padding: 0;
@@ -337,54 +360,55 @@ a:hover {
 }
 
 .rev-duke {
-    max-width: 65%;
-    height: auto;
-    float: left;
-    border: 4px solid white;
+  max-width: 65%;
+  height: auto;
+  float: left;
+  border: 4px solid white;
 }
 
 .rev-abbey {
-    max-width: 65%;
-    height: auto;
-    float: right;
-    border: 4px solid white;
+  max-width: 65%;
+  height: auto;
+  float: right;
+  border: 4px solid white;
 }
 
 .rev-max {
-    max-width: 65%;
-    height: auto;
-    float: left;
-    border: 4px solid white;
+  max-width: 65%;
+  height: auto;
+  float: left;
+  border: 4px solid white;
 }
 
 .rev-duke-bottom {
-    max-width: 65%;
-    height: auto;
-    float: left;
-    border: 4px solid white;
+  max-width: 65%;
+  height: auto;
+  float: left;
+  border: 4px solid white;
 }
 
 .rev-lil-pistoia {
-    max-width: 65%;
-    height: auto;
-    float: right;
-    border: 4px solid white;
+  max-width: 65%;
+  height: auto;
+  float: right;
+  border: 4px solid white;
 }
+
 .rev-diz {
-    max-width: 65%;
-    height: auto;
-    float: right;
-    border: 4px solid white;
+  max-width: 65%;
+  height: auto;
+  float: right;
+  border: 4px solid white;
 }
 
 .publication {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .title-link {
-    margin-bottom: 20px;
-    background-color: #ebeff1;
-    padding: 2%;
+  margin-bottom: 20px;
+  background-color: #ebeff1;
+  padding: 2%;
 }
 
 /* Bio Page */
@@ -416,7 +440,7 @@ lt-bio {
 
 .cards,
 .card {
-    text-align: center;
+  text-align: center;
 }
 
 .cards p {
@@ -429,13 +453,12 @@ lt-bio {
 
 
 .quote {
-    width: auto;
-    margin: 15px 0;
-    line-height: 2;
+  width: auto;
+  margin: 15px 0;
+  line-height: 2;
 }
 
 /* Images */
 .img-thumbnail {
-    border: 1px solid #dee2e6;
+  border: 1px solid #dee2e6;
 }
-
